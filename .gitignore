@@ -1,2 +1,7 @@
 target
 .idea
+*.log
+demo-project1.iml
+demoproject1.iml
+#/error.log
+!/src/error.log
