@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:th="http://www.thymeleaf.org"> <!--声明thymeleaf的名称空间-->
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+thymeleaf 页面 index.html，
+<br/>
+<br/>
+<br/>
+userList 的内容为：
+
+<!--遍历传来的list中的各user-->
+<p th:each="user, userStat : ${list}">
+    <span th:text="${user}"></span>
+</p>
+
+</body>
+</html>
